@@ -1,3 +1,8 @@
+# Output
+![Screenshot (102)](https://github.com/user-attachments/assets/b92aec2e-2ab0-463a-830a-0997a920219d)
+
+![Screenshot (103)](https://github.com/user-attachments/assets/1db8faf2-1bc0-4dd7-999a-3e3e672c5eff)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
