@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.container {
+  width: 100vw;
+  height: auto;
+  display: grid;
+  grid-template: 20vh 5vh 70vh/50vw 50vw;
+  background-color: rgb(48, 48, 48);
+  background-image: url("/public/assits/stars\ 1.jpg");
+}
+.backhome {
+  display: flex;
+  width: 100vw;
+  height: 100px;
+  justify-content: center;
+}
+.menu {
+  color: rgb(179, 179, 179);
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  justify-content: center;
+}
+.menu ul {
+  list-style: none;
+  display: flex;
+  /* gap: 40px; */
+  font-size: 25px;
+  cursor: pointer;
+}
+.menu ul li {
+  font-size: 25px;
+  transition: 0.5s;
+}
+.menu ul li:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  font-size: 26px;
+}
+.backhome button {
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+  background-color: #ffffff00;
+  border-radius: 50px;
+  border: 2px solid white;
+  color: rgb(179, 179, 179);
+  font-size: 25px;
+  transition: 0.3s;
+  animation-duration: 2s;
+  animation-name: headingAnimation;
+}
+.backhome button:hover {
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  background-color: #ffffff00;
+  border-radius: 50px;
+  border: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+}
+.videoOrImage {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-size: 18px;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.videoOrImage ol {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-size: 28px;
+  gap: 30px;
+  transition: 0.3s;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-size: 28px;
+  gap: 10px;
+  transition: 0.3s;
+}
+.image:hover {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-size: 30px;
+  gap: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.video {
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-size: 28px;
+  gap: 10px;
+}
+.video:hover {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-size: 30px;
+  gap: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.gridFrame {
+  width: 100vw;
+  height: 75vh;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  background-image: url("/public/assits/stars\ 1.jpg");
+}
+
+.ImageAndVideo {
+  position: relative;
+  width: 70vw;
+  height: 70vh;
+  border-radius: 20px;
+}
+.imageGrid {
+  display: grid;
+  position: absolute;
+  width: 70vw;
+  height: 70vh;
+  border-radius: 20px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 33% 33% 33%;
+  grid-auto-rows: 33%;
+  grid-auto-columns: 1fr;
+  gap: 10px;
+  @media (width >= 40em) {
+    grid-template-columns: repeat(2,1fr);
+  }
+  @media (width >= 60em) {
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+.videoGrid {
+  /* gap: 1%; */
+  display: grid;
+  position: absolute;
+  width: 70vw;
+  height: 70vh;
+  border-radius: 20px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 33% 33% 33%;
+  grid-auto-rows: 33%;
+  grid-auto-columns: 1fr;
+  gap: 10px;
+  @media (width >= 40em) {
+    grid-template-columns: repeat(2,1fr);
+  }
+  @media (width >= 60em) {
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+.imageRockey{
+  
+}
+.imageRockey:hover{
+  filter: saturate(1);
+}
