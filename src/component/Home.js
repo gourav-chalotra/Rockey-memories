@@ -6,7 +6,7 @@ const home = ()=>{
         <>
             <div className='ContainerSectionGrid'>
                 <div className='Welcome_heading'>Hello Rockey <br/>Here...</div>
-                <div className='memorybtn'><button onClick={memories}>Memories</button></div>
+                <div className='memorybtn'><button>Memories</button></div>
             </div>
         </>
     )

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Memory.css";
+import { hover } from "@testing-library/user-event/dist/hover";
 
 const arrayImage = [
   {
@@ -54,11 +55,12 @@ const memories = () => {
                   style={{
                     borderRadius: "20px",
                     objectFit: "cover",
-                    filter: "saturate(0%)",
                     width: "80%",
                     height: "95%",
-                    cursor:"pointer"
-                  }}
+                    cursor:"pointer",
+                    filter:"saturate(0)"
+                  }
+                }
                 />
               ))}
             </div>
